@@ -1,0 +1,13 @@
+<md-toolbar color="primary">
+    Angular Material 2 App
+</md-toolbar>
+
+<div style="padding: 7px">
+    <message-detail *ngFor="let message of messages"
+                    [message]="message">
+    </message-detail>
+</div>
+
+<div>
+    <send-box></send-box>
+</div>

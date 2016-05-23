@@ -1,0 +1,12 @@
+<div>
+    <md-input type="text"
+              [(ngModel)]="model.text"
+              required="true"
+              placeholder="message">
+
+    </md-input>
+    <button md-raised-button
+            (click)="onSendMessage()">
+        Send
+    </button>
+</div>
